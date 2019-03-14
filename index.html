@@ -7,6 +7,7 @@
     <title>Faten's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css"/>
   </head>
   <body>
 
@@ -24,7 +25,7 @@
     </header>
 
     <main>
-      <section>
+      <section class="row">
         <article class="description">
           <h2>About Me</h2>
           <p>My name is Faten holding <em>Computer Science</em> degree, currently working on IBM as cloud developer. I like music, swimming and obsessed with technology.</p>
@@ -32,27 +33,33 @@
       </section>
 
       <br>
-      <section>
-        <h2>My Intrest</h2>
-        <div class="interest">
-          <div class="polaroid">
-            <img width="91%" src="img/AI.png" alt="AI">
-            <div class="container">
-              <p>Artificial intelligence</p>
+      <section class="container">
+        <div class="row">
+          <h2>My Intrest</h2>
+          <div class="  col-sm ">
+            <div class="polaroid">
+              <img width="91%" src="img/AI.png" alt="AI">
+              <div class="container">
+                <p>Artificial intelligence</p>
+              </div>
             </div>
           </div>
 
-          <div class="polaroid">
-            <img class="bc-logo" width="76%" src="img/BC.png" alt="Blockchain">
-            <div class="container">
-              <p>Blockchain</p>
+          <div class="  col-sm">
+            <div class="polaroid">
+              <img class="bc-logo" width="76%" src="img/BC.png" alt="Blockchain">
+              <div class="container">
+                <p>Blockchain</p>
+              </div>
             </div>
           </div>
 
-          <div class="polaroid">
-            <img width="100%" src="img/webdesign.png" alt="Web Developement">
-            <div class="container">
-              <p>Web Developement</p>
+          <div class="  col-sm ">
+            <div class="polaroid">
+              <img width="100%" src="img/webdesign.png" alt="Web Developement">
+              <div class="container">
+                <p>Web Developement</p>
+              </div>
             </div>
           </div>
         </div>
@@ -61,18 +68,23 @@
       <br>
       <br>
 
-      <section>
-        <h2>My Experience</h2>
-        <div class="hero">
-          <img width="20%" src="img/IBM.png" alt="IBM Logo">
-          <img height="65px" src="img/ebox.jpeg" alt="E-Box Logo">
+      <section class="container">
+        <div class="row">
+          <h2>My Experience</h2>
+          <!-- <div class="hero"> -->
+          <div class="col">
+            <img width="20%" src="img/IBM.png" alt="IBM Logo">
+          </div>
+          <div class="col">
+            <img height="65px" src="img/ebox.jpeg" alt="E-Box Logo">
+          </div>
         </div>
       </section>
 
       <br>
       <br>
 
-      <section>
+      <section class="row">
         <h2>Contact Me</h2>
         <ul>
           <li><a href="https://twitter.com/devFaten"><i class="fa fa-twitter" aria-hidden="true" ></i></a></li>

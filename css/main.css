@@ -1,50 +1,49 @@
-body{
-  background-color: #f8f8f2;
-  padding-left: 5%;
-  padding-right: 5%;
+@media screen and (max-width:772px) {
+  header{
+    background-color: #fc9399;
+  }
+
+  .header__title{
+    color: #f8f8f2;
+  }
+
+  .header__inner > p {
+    margin-top: -20px;
+    color: #000;
+  }
+
+  .header__inner > img {
+    width: 20%;
+    height: 70px;
+    float: right;
+    padding-top: 1%;
+  }
+
+  .header__inner > h1 {
+    padding-top: 2%;
+  }
 }
 
-.header__title{
-  color: #7fc6b6;
-}
+@media screen and (min-width:773px) {
+  body{
+    background-color: #f8f8f2;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-.description > p {
-  margin-left: 3%;
-}
+  .header__title{
+    color: #7fc6b6;
+  }
 
-.hero {
-  margin-left:  30%;
-}
+  .header__inner > img {
+    width: 12%;
+    float: right;
+  }
 
-.hero > img {
-  padding-right: 10%;
-}
-
-h2 {
-  color: #fc9399;
-}
-
-.header__inner{
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.header__inner > h1 {
-  margin-left: 3%;
-}
-
-.header__inner > p {
-  margin-left: 4%;
-}
-
-.header__inner > p {
-  margin-top: -20px;
-  color: #b8bfc7;
-}
-
-.header__inner > img {
-  width: 12%;
-  float: right;
+  .header__inner > p {
+    margin-top: -20px;
+    color: #b8bfc7;
+  }
 }
 
 hr {
@@ -59,38 +58,16 @@ section {
   padding-right: 5%;
 }
 
-.interest{
-  margin-left: 3%;
-}
-
-div.polaroid {
-  width: 30%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-  margin-right: 3%;
-  float: left;
-}
-
-div.polaroid > img {
-  padding-top: 10%;
-}
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-
-.bc-logo{
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 footer {
   background-color: #fc9399 ;
   text-align: center;
   color: white;
 }
+
+h2 {
+  color: #fc9399;
+}
+
 ul {
   margin:0;
   padding:0;
@@ -143,4 +120,62 @@ ul li:nth-child(2) a:hover .fa {
 
 ul li:nth-child(3) a:hover .fa {
   color: #3b5998;
+}
+
+div.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 3%;
+  float: left;
+}
+
+div.polaroid > img {
+  padding-top: 10%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.description > p {
+  margin-left: 3%;
+}
+
+.hero {
+  margin-left:  30%;
+}
+
+.col > img {
+  padding-right: 10%;
+  opacity: 0.5;
+}
+
+.col > img:hover {
+
+  opacity: 1;
+}
+
+.header__inner{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.header__inner > h1 {
+  margin-left: 3%;
+}
+
+.header__inner > p {
+  margin-left: 4%;
+}
+
+.interest{
+  margin-left: 3%;
+}
+
+.bc-logo{
+  padding-left: 10%;
+  padding-right: 10%;
 }
