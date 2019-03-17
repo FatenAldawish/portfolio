@@ -22,6 +22,25 @@
   .header__inner > h1 {
     padding-top: 2%;
   }
+
+
+    div.polaroid {
+      width: 30%;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 10%;
+      margin-right: 3%;
+      float: left;
+    }
+
+    div.polaroid > img {
+      padding-top: 10%;
+    }
+
+    div.container {
+      text-align: center;
+      padding: 10px 20px;
+    }
 }
 
 @media screen and (min-width:773px) {
@@ -44,6 +63,276 @@
     margin-top: -20px;
     color: #b8bfc7;
   }
+
+  div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+    margin-right: 3%;
+    float: left;
+  }
+
+  div.polaroid > img {
+    padding-top: 10%;
+  }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+}
+
+
+@media screen and ( max-width:672px) {
+  header{
+    background-color: #fc9399;
+  }
+
+  .header__title{
+    color: #f8f8f2;
+  }
+
+  .header__inner > p {
+    margin-top: -20px;
+    color: #000;
+  }
+
+  div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+    margin-right: 3%;
+    float: left;
+  }
+
+  div.polaroid > img {
+    padding-top: 10%;
+  }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .ai-logo > img{
+    width: 78%;
+    padding-left: 10%;
+  }
+
+  .wd-logo > img{
+    width: 100%;
+    padding-left: 5%;
+  }
+
+
+
+}
+
+@media screen and ( max-width:670px) {
+  header{
+    background-color: #fc9399;
+  }
+
+  .header__title{
+    color: #f8f8f2;
+  }
+
+  .header__inner > p {
+    margin-top: -20px;
+    color: #000;
+  }
+
+  div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+    margin-right: 3%;
+    float: left;
+  }
+
+  div.polaroid > img {
+    padding-top: 10%;
+  }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .ai-logo > img{
+    width: 78%;
+    padding-left: 10%;
+  }
+
+  .wd-logo > img{
+    width: 100%;
+    padding-left: 5%;
+  }
+
+}
+
+@media screen and ( max-width:640px) {
+  header{
+    background-color: #fc9399;
+  }
+
+  .header__title{
+    color: #f8f8f2;
+  }
+
+  .header__inner > p {
+    margin-top: -20px;
+    color: #000;
+  }
+
+  .ai-logo > img{
+    width: 78%;
+    padding-left: 10%;
+  }
+
+  .wd-logo > img{
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: none;
+    margin-bottom: 10%;
+    margin-right: 3%;
+    float: left;
+  }
+
+  div.polaroid > img {
+    padding-top: 10%;
+  }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    font-size:13px;
+  }
+
+}
+
+
+@media screen and ( max-width:570px) {
+  header{
+    background-color: #fc9399;
+  }
+
+  .header__title{
+    color: #f8f8f2;
+  }
+
+  .header__inner > p {
+    margin-top: -20px;
+    color: #000;
+  }
+
+  .header__inner > img {
+    width: 30%;
+    height: 70px;
+    float: right;
+    padding-top: 2%;
+  }
+
+  .ai-logo > img{
+    width: 78%;
+    padding-left: 10%;
+  }
+
+  .wd-logo > img{
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: none;
+    margin-bottom: 10%;
+    margin-right: 3%;
+    float: left;
+  }
+
+  div.polaroid > img {
+    padding-top: 10%;
+  }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    font-size:13px;
+  }
+
+}
+
+@media screen and ( max-width: 415px) {
+  header{
+    background-color: #fc9399;
+            font-size:13px;
+  }
+
+  .header__title{
+    color: #f8f8f2;
+  }
+
+  .header__inner > p {
+    margin-top: -20px;
+    color: #000;
+
+  }
+
+  .header__inner > img {
+    width: 30%;
+    height: 60px;
+    float: right;
+    padding-top: 1%;
+  }
+
+  .ai-logo > img{
+    width: 78%;
+    padding-left: 10%;
+  }
+
+  .wd-logo > img{
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: none;
+    margin-bottom: 10%;
+    margin-right: 3%;
+    float: left;
+  }
+
+  div.polaroid > img {
+    padding-top: 10%;
+  }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    font-size:13px;
+  }
+
+  h2 {
+    font-size:20px;
+  }
+
+  .description > p {
+    margin-left: 3%;
+    font-size:16px;
+  }
+
 }
 
 hr {
@@ -122,24 +411,6 @@ ul li:nth-child(3) a:hover .fa {
   color: #3b5998;
 }
 
-div.polaroid {
-  width: 30%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-  margin-right: 3%;
-  float: left;
-}
-
-div.polaroid > img {
-  padding-top: 10%;
-}
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-
 .description > p {
   margin-left: 3%;
 }
@@ -148,13 +419,12 @@ div.container {
   margin-left:  30%;
 }
 
-.col > img {
+.alignement > img {
   padding-right: 10%;
   opacity: 0.5;
 }
 
-.col > img:hover {
-
+.alignement > img:hover {
   opacity: 1;
 }
 
@@ -178,4 +448,8 @@ div.container {
 .bc-logo{
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.alignement {
+  margin-left: 30%;
 }
